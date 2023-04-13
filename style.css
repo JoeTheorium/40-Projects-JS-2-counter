@@ -4,20 +4,67 @@ body {
 }
 
 h1 {
-    color: #102B42;
+    color: #102b42;
     font-size: 6rem;
-
 }
 
 h3 {
     font-size: 8rem;
     padding: 0px;
+    color: #222;
+    transition: all 0.2s ease-in-out;
 }
 
 button {
     font-size: 2rem;
     margin-left: 2rem;
-    border-color: #005fcc;
-    border-radius:0.5rem;
+    border: 2px solid #005fcc;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
+    color: #005fcc;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #005fcc;
+    color: #fff;
+}
+
+.btn-reset {
+    color: #222;
+}
+
+.btn-reset:hover {
+    background-color: #303131;
+}
+
+.btn-decrease {
+    color: #ff4136;
+}
+
+.btn-decrease:hover {
+    background-color: #ff4136;
+    color: #fff;
+}
+
+.btn-increase {
+    color: #2ecc40;
+}
+
+.btn-increase:hover {
+    background-color: #2ecc40;
+    color: #fff;
+}
+
+#number {
+    color: #222;
+}
+
+#number.positive {
+    color: #2ecc40;
+}
+
+#number.negative {
+    color: #ff4136;
 }
