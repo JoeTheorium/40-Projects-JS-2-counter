@@ -1,0 +1,23 @@
+body {
+    background-color: #f1f5f8;
+    text-align: center;
+}
+
+h1 {
+    color: #102B42;
+    font-size: 6rem;
+
+}
+
+h3 {
+    font-size: 8rem;
+    padding: 0px;
+}
+
+button {
+    font-size: 2rem;
+    margin-left: 2rem;
+    border-color: #005fcc;
+    border-radius:0.5rem;
+    cursor: pointer;
+}
